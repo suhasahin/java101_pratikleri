@@ -11,7 +11,7 @@ public class Main {
     do {
         System.out.println("sayı giriniz: ");
         n = scan.nextInt();
-        if (n % 2 == 1){
+        if (n % 2 == 0 && n % 4 == 0){
             toplam += n;
         }
     }while (n > 0);
